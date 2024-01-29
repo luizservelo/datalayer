@@ -1,0 +1,32 @@
+{
+  "name": "wallygator/datalayer",
+  "description": "The data layer is a persistent abstraction component of your database that PDO",
+  "type": "library",
+  "keywords": [
+    "Wallygator",
+    "Database",
+    "PDO",
+    "Save",
+    "Delete",
+    "Destroy",
+    "CRUD"
+  ],
+  "homepage": "https://www.instagram.com/luizservelo",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Luiz Servelo [Wallygator]",
+      "email": "luiz@weesmart.tech",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wallygator\\DataLayer\\": "src"
+    }
+  }
+}
